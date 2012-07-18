@@ -52,9 +52,9 @@ MEDIA_ROOT = ''
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
 MEDIA_URL = '/uploads/'
-VAR_ROOT = '/var/www/django_bootstrap'
+PROJECT_DIR = '/var/www/django_bootstrap'
 PROJECT_MODULE_NAME = ''
-PROJECT_DIR = VAR_ROOT
+VAR_ROOT = '/tmp'
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
