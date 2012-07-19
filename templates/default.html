@@ -13,7 +13,7 @@
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <link href="{{ STATIC_URL }}/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!--<link href="{{ STATIC_URL }}/assets/css/bootstrap-responsive.min.css" rel="stylesheet">-->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -55,8 +55,16 @@
     </div>
 
     <div class="container">
-      <h1>Bootstrap starter template</h1>
-      <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
+      <header class="page-header">
+        <h1>Header <small>Subheader</small></h1>
+      </header>
+      <section>
+        <div class="row">
+          <div class="span6">
+            <p>This is some text. You should probably change this to some actual text</p>
+          </div>
+        </div>
+      </section>
     </div> <!-- /container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
